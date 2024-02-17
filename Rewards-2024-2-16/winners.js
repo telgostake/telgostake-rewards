@@ -3,7 +3,7 @@
 
 function getMultipleRandom(arr, num) {
   const shuffled = [...arr].sort(() => 0.5 - Math.random());
-  console.log(`shuffled`, shuffled)
+  // console.log(`shuffled`, shuffled)
   return shuffled.slice(0, num);
 }
 
@@ -43,7 +43,7 @@ const eligibleDelegators = [
   "0202a4db46accf111a976e0f1679d7d3a82ed28d5d0f95358ea8f1465db97b5598b8",
   ]
 console.log("List all eligible delegators:")
-console.log(eligibleDelegators.length)
+// console.log(eligibleDelegators.length)
 for (let i = 0; i < eligibleDelegators.length; i++)
   console.log(eligibleDelegators[i]);
 
